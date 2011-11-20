@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Test Post"
+title: "Moving to Octopress"
 date: 2011-11-19 21:47
 comments: true
 categories:
 ---
 
-Alright. Lets see how this works!
+I'm moving the blog from dreamhost+wordpress to heroku+octopress (which is built on jekyll). Anything before this point in the blog has been imported and might be a little off.  You have been warned!
