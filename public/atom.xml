@@ -4,7 +4,7 @@
   <title><![CDATA[South Pole Steve]]></title>
   <link href="http://yoursite.com/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2011-11-19T21:38:25-06:00</updated>
+  <updated>2011-11-19T21:48:42-06:00</updated>
   <id>http://yoursite.com/</id>
   <author>
     <name><![CDATA[Steve Faulkner]]></name>
@@ -12,5 +12,14 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Test Post]]></title>
+    <link href="http://yoursite.com/blog/2011/11/19/test-post/"/>
+    <updated>2011-11-19T21:47:00-06:00</updated>
+    <id>http://yoursite.com/blog/2011/11/19/test-post</id>
+    <content type="html"><![CDATA[<p>Alright. Lets see how this works!</p>
+]]></content>
+  </entry>
   
 </feed>
