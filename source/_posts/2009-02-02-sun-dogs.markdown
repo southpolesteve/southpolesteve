@@ -1,0 +1,27 @@
+---
+author: faulkner
+date: '2009-02-02 08:17:18'
+layout: post
+slug: sun-dogs
+status: publish
+title: Sun Dogs
+wordpress_id: '211'
+? ''
+: - Antarctica
+  - South Pole
+  - Sun Dogs
+---
+
+[singlepic id=509 w=250 float=right]There is a pretty cool atmospheric
+phenomon here called [sun dogs](http://en.wikipedia.org/wiki/Sun_dog).  They
+are false images of the sun that are caused by light being bent by ice
+crystals in the upper atmosphere.  Sun dogs are similar to rainbows, but are
+created by ice crystals instead of water droplets.  These occur all over the
+world, but they are the brightest at extremely cold temperatures - South Pole
+sounds like a pefect place.  They were much more prevelent earlier in the
+season because the sun was closer to to the ideal angle.  The picture at the
+left shows the sun blocked out.  You can see one sun dog and the two halos
+that are also often visible.  On extremely clear days its not uncommon to see
+three complete halos around the sun, two sun dogs nearly as bright as the sun,
+and one halo that goes all the way around your head.
+

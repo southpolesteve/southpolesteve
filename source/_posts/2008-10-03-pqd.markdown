@@ -1,0 +1,22 @@
+---
+author: faulkner
+date: '2008-10-03 18:41:40'
+layout: post
+slug: pqd
+status: publish
+title: PQ'd!
+wordpress_id: '7'
+? ''
+: - Antarctica
+  - IceCube
+  - South Pole
+---
+
+I just got word from Raytheon.  I have PQ'd!  This basically means I am
+medically clear to go to the South Pole.
+
+PQ stands for Physically Qualified
+
+Raytheon is the company that handles all the logistics for the US Polar
+Programs.
+

@@ -1,0 +1,37 @@
+---
+author: faulkner
+date: '2009-01-26 05:01:43'
+layout: post
+slug: spiff
+status: publish
+title: SPIFF
+wordpress_id: '151'
+? ''
+: - Antarctica
+  - Film
+  - Interesting
+  - South Pole
+  - Tech
+---
+
+Two nights ago was the annual South Pole In-Da-Continent Film Festival.
+Otherwise known as SPIFF.  They show a bunch of short films made by people
+here at the station.  One of the films was very interesting, even though it
+was just a simple interview.
+
+Earlier this season a skier arrived at the pole nearly about to collapse from
+exhaustion.  He started cross country skiing from the edge of the continent,
+but broke his ski binding on the 4th day in.  Instead of turning around he
+decided to keep going - to walk to the pole.  He ended up making it on Dec.
+23rd and in the process broke the world record for walking to the South Pole.
+
+The video shown at SPIFF was an interview taken soon after he arrived at the
+station.  I found it very interesting.  He is still extremely in touch with
+all of the emotions associated with his trip and it was really cool to hear
+him talk about what he went through when it was still so fresh in his mind.
+
+IceCube has been kind enough to post it on their website
+[here](http://icecube.wisc.edu/~krasberg/pictures/Spiff-MarkKandShelbyH.mov).
+I recommend checking it out if you get the chance.  A warning though, the file
+is over 2 GB in size.  It may take a while to download, so be aware.
+
