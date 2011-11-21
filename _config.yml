@@ -4,7 +4,7 @@
 
 url: http://yoursite.com
 title: South Pole Steve
-subtitle: A blogging framework for hackers.
+subtitle: I went to the South Pole once. Now I make stuff on the internet.
 author: Steve Faulkner
 simple_search: http://google.com/search
 
@@ -57,7 +57,7 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.ht
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_user: southpolesteve
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
