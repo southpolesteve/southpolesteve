@@ -6,6 +6,10 @@ $root = ::File.dirname(__FILE__)
 
 class SinatraStaticServer < Sinatra::Base
 
+  configure :production do
+    require 'newrelic_rpm'
+  end
+
   before do
     response.headers['Cache-Control'] = 'public, max-age=60'
   end
