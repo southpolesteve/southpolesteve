@@ -37,6 +37,7 @@ GEM
     maruku (0.6.0)
       syntax (>= 1.0.0)
     mime-types (1.17.2)
+    newrelic_rpm (3.3.0)
     posix-spawn (0.3.6)
     pygments.rb (0.1.3)
       rubypython (>= 0.5.1)
@@ -70,6 +71,7 @@ DEPENDENCIES
   heroku
   jekyll
   liquid (= 2.2.2)
+  newrelic_rpm
   pygments.rb
   rack
   rake
