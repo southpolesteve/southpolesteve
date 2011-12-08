@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[South Pole Steve]]></title>
-  <link href="http://yoursite.com/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
-  <updated>2011-12-08T12:00:50-06:00</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://southpolesteve.com/atom.xml" rel="self"/>
+  <link href="http://southpolesteve.com/"/>
+  <updated>2011-12-08T12:13:03-06:00</updated>
+  <id>http://southpolesteve.com/</id>
   <author>
     <name><![CDATA[Steve Faulkner]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Rails is for Beginners]]></title>
-    <link href="http://yoursite.com/rails-is-for-beginners/"/>
+    <link href="http://southpolesteve.com/rails-is-for-beginners/"/>
     <updated>2011-12-08T11:09:00-06:00</updated>
-    <id>http://yoursite.com/rails-is-for-beginners</id>
+    <id>http://southpolesteve.com/rails-is-for-beginners</id>
     <content type="html"><![CDATA[<p>This morning I came across an article on hacker news titled <a href="http://www.horsesaysinternet.com/code/rails-is-not-for-beginners/">Rails Is Not For Beginners</a>. The article is actually about Sinatra, but the link-bait title is dead wrong. Rails is perfect for beginners and here is why &#8230;</p>
 
 <p>A friend of mine with zero programming experience recently asked me to help him learn web development. We setup rails together, and I pointed him to some online tutorials. When he called me the next evening, he could barely contain his excitement:</p>
@@ -34,18 +34,18 @@
   
   <entry>
     <title type="html"><![CDATA[Moving to Octopress]]></title>
-    <link href="http://yoursite.com/test-post/"/>
+    <link href="http://southpolesteve.com/test-post/"/>
     <updated>2011-11-19T21:47:00-06:00</updated>
-    <id>http://yoursite.com/test-post</id>
+    <id>http://southpolesteve.com/test-post</id>
     <content type="html"><![CDATA[<p>I&#8217;m moving the blog from dreamhost+wordpress to heroku+octopress (which is built on jekyll). Anything before this point in the blog has been imported and might be a little off.  You have been warned!</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Radio Interview for GeoHuddle]]></title>
-    <link href="http://yoursite.com/radio-interview-for-geohuddle/"/>
+    <link href="http://southpolesteve.com/radio-interview-for-geohuddle/"/>
     <updated>2010-09-06T21:52:51-05:00</updated>
-    <id>http://yoursite.com/radio-interview-for-geohuddle</id>
+    <id>http://southpolesteve.com/radio-interview-for-geohuddle</id>
     <content type="html"><![CDATA[<p>Last Friday, I did a radio interview on 1670 AM for my startup -
 <a href="http://www.geohuddle.com">GeoHuddle</a>.  The full audio is available here:</p>
 
@@ -59,9 +59,9 @@ Interview with Steve Faulkner&#8221;]</p>
   
   <entry>
     <title type="html"><![CDATA[Vote for GeoHuddle in the GE Ecomagination Challenge]]></title>
-    <link href="http://yoursite.com/vote-for-geohuddle-in-the-ge-ecomagination-challenge/"/>
+    <link href="http://southpolesteve.com/vote-for-geohuddle-in-the-ge-ecomagination-challenge/"/>
     <updated>2010-07-25T10:03:59-05:00</updated>
-    <id>http://yoursite.com/vote-for-geohuddle-in-the-ge-ecomagination-challenge</id>
+    <id>http://southpolesteve.com/vote-for-geohuddle-in-the-ge-ecomagination-challenge</id>
     <content type="html"><![CDATA[<p>As some of you might know, I am working on a new startup company these days
 called GeoHuddle. We are developing a new style of community geothermal energy
 system. Check out our website at <a href="http://www.geohuddle.com">www.geohuddle.com</a></p>
@@ -73,9 +73,9 @@ announced $200 million dollar <a href="http://challenge.ec%0Aomagination.com/ct
   
   <entry>
     <title type="html"><![CDATA[Sailing Through June 4th 2010]]></title>
-    <link href="http://yoursite.com/sailing-through-june-4th-2010/"/>
+    <link href="http://southpolesteve.com/sailing-through-june-4th-2010/"/>
     <updated>2010-06-06T12:47:17-05:00</updated>
-    <id>http://yoursite.com/sailing-through-june-4th-2010</id>
+    <id>http://southpolesteve.com/sailing-through-june-4th-2010</id>
     <content type="html"><![CDATA[<p><a href="http://www.southpolesteve.com/wp-%0Acontent/uploads/Sailing.jpg"><img src="http://www.southpolesteve.com/wp-%0Acontent/uploads/Sailing.jpg" alt="" /></a></p>
 
 <p>Total Distance: 92.58 miles Max Speed: 14.7 mph Average Speed: 4.75 mph</p>
@@ -86,9 +86,9 @@ announced $200 million dollar <a href="http://challenge.ec%0Aomagination.com/ct
   
   <entry>
     <title type="html"><![CDATA[Practicing Landings]]></title>
-    <link href="http://yoursite.com/practicing-landings/"/>
+    <link href="http://southpolesteve.com/practicing-landings/"/>
     <updated>2010-05-16T23:29:29-05:00</updated>
-    <id>http://yoursite.com/practicing-landings</id>
+    <id>http://southpolesteve.com/practicing-landings</id>
     <content type="html"><![CDATA[<p>Can&#8217;t help but post about this again. GPS tracking for sailing is pretty
 awesome! Today I sailed 25 total miles and had a max speed of almost 10 mph.
 Thats pretty quick for a sailboat. Also, I did a bunch of practice landings
@@ -103,9 +103,9 @@ about my sailing this summer.</p>
   
   <entry>
     <title type="html"><![CDATA[Iceland Volcano Time Lapse]]></title>
-    <link href="http://yoursite.com/iceland-volcano-time-lapse/"/>
+    <link href="http://southpolesteve.com/iceland-volcano-time-lapse/"/>
     <updated>2010-05-15T20:38:28-05:00</updated>
-    <id>http://yoursite.com/iceland-volcano-time-lapse</id>
+    <id>http://southpolesteve.com/iceland-volcano-time-lapse</id>
     <content type="html"><![CDATA[<p>I ran into this video today and just had to pass it along. Sweet video time
 lapse of the volcano in Iceland. Make me want to go to Iceland so bad, and
 also to buy a super nice video camera.</p>
@@ -117,9 +117,9 @@ from <a href="http://vimeo.com/sstieg">Sean Stiegemeier</a> on <a href="http://v
   
   <entry>
     <title type="html"><![CDATA[Sailing - Summer 2010]]></title>
-    <link href="http://yoursite.com/sailing-summer-2010/"/>
+    <link href="http://southpolesteve.com/sailing-summer-2010/"/>
     <updated>2010-05-14T15:28:39-05:00</updated>
-    <id>http://yoursite.com/sailing-summer-2010</id>
+    <id>http://southpolesteve.com/sailing-summer-2010</id>
     <content type="html"><![CDATA[<p>Used the GPS to track my sailing today for the first time.  Of course I only
 remembered to turn it on for the trip back.  But its a start!</p>
 
@@ -129,9 +129,9 @@ remembered to turn it on for the trip back.  But its a start!</p>
   
   <entry>
     <title type="html"><![CDATA[About Steve]]></title>
-    <link href="http://yoursite.com/about-steve/"/>
+    <link href="http://southpolesteve.com/about-steve/"/>
     <updated>2010-05-09T22:39:52-05:00</updated>
-    <id>http://yoursite.com/about-steve</id>
+    <id>http://southpolesteve.com/about-steve</id>
     <content type="html"><![CDATA[<p>Some of you adventurous types may have clicked the little &#8220;about&#8221; link at the
 very top of the page. If you did, you quickly realized there wasn&#8217;t much
 there. But&#8230; change is here!  Now when you click that link you will be
@@ -149,9 +149,9 @@ YouTube, Twitter, etc).  Highly recommended.</p>
   
   <entry>
     <title type="html"><![CDATA[Tax Brackets [Infographic]]]></title>
-    <link href="http://yoursite.com/tax-brackets-infographic/"/>
+    <link href="http://southpolesteve.com/tax-brackets-infographic/"/>
     <updated>2010-04-26T13:58:25-05:00</updated>
-    <id>http://yoursite.com/tax-brackets-infographic</id>
+    <id>http://southpolesteve.com/tax-brackets-infographic</id>
     <content type="html"><![CDATA[<p>I am a sucker for well done infographics. I found this one particularly
 interesting. Click the picture for a larger version</p>
 
@@ -163,9 +163,9 @@ interesting. Click the picture for a larger version</p>
   
   <entry>
     <title type="html"><![CDATA[Ultimate Sailing Cooler]]></title>
-    <link href="http://yoursite.com/ultimate-sailing-cooler/"/>
+    <link href="http://southpolesteve.com/ultimate-sailing-cooler/"/>
     <updated>2010-04-19T13:13:14-05:00</updated>
-    <id>http://yoursite.com/ultimate-sailing-cooler</id>
+    <id>http://southpolesteve.com/ultimate-sailing-cooler</id>
     <content type="html"><![CDATA[<p><a href="http://www.redframe%0Aengineering.com/pics/cooler1.JPG"><img src="http://www.redframeengineering.com/pics/cooler1.JPG" alt="" /></a>I&#8217;m in the process of creating the &#8220;Ultimate
 Sailing Cooler&#8221;. The motivation for this is just to have the most
 technologically advanced cooler that ever existed. It will be used mostly for
@@ -194,9 +194,9 @@ accelerometer.</p>
   
   <entry>
     <title type="html"><![CDATA[Iceland - Feb 2011]]></title>
-    <link href="http://yoursite.com/iceland-feb-2011/"/>
+    <link href="http://southpolesteve.com/iceland-feb-2011/"/>
     <updated>2010-04-15T10:02:44-05:00</updated>
-    <id>http://yoursite.com/iceland-feb-2011</id>
+    <id>http://southpolesteve.com/iceland-feb-2011</id>
     <content type="html"><![CDATA[<p>As some of you might know, I am probably going to move to Iceland next
 February.  I&#8217;ll be studying <a href="http://www.wikinvest.com/concept/Geothermal_energy">geothermal
 energy</a> at the <a href="http://www.res.is/">Renewable
@@ -216,9 +216,9 @@ from the eruption site and on the other side of the island.  See the map:</p>
   
   <entry>
     <title type="html"><![CDATA[What is "Disruptive"]]></title>
-    <link href="http://yoursite.com/what-is-disruptive/"/>
+    <link href="http://southpolesteve.com/what-is-disruptive/"/>
     <updated>2010-04-12T08:07:13-05:00</updated>
-    <id>http://yoursite.com/what-is-disruptive</id>
+    <id>http://southpolesteve.com/what-is-disruptive</id>
     <content type="html"><![CDATA[<p>Today&#8217;s post inspired by: <a href="http://blog.asmartbear.com/not-disruptive.html">http://blog.asmartbear.com/not-
 disruptive.html</a></p>
 
@@ -237,9 +237,9 @@ that is being disruptive.</p>
   
   <entry>
     <title type="html"><![CDATA[Networking]]></title>
-    <link href="http://yoursite.com/networking/"/>
+    <link href="http://southpolesteve.com/networking/"/>
     <updated>2010-04-10T12:12:21-05:00</updated>
-    <id>http://yoursite.com/networking</id>
+    <id>http://southpolesteve.com/networking</id>
     <content type="html"><![CDATA[<p>Building a network of contacts is one of the most important things you can do.
 My friend <a href="http://blog.justinkbeck.com">Jusitn Beck</a> did a great post about
 this <a href="http://blog.justinkbeck.com/2010/02/networking-business-of-%0Ameeting-people.html">here</a>.  I agree with pretty much everything he said.  As for
@@ -264,18 +264,18 @@ next to you.</p>
   
   <entry>
     <title type="html"><![CDATA[The Paradox of Choice]]></title>
-    <link href="http://yoursite.com/the-paradox-of-choice/"/>
+    <link href="http://southpolesteve.com/the-paradox-of-choice/"/>
     <updated>2010-03-28T17:13:05-05:00</updated>
-    <id>http://yoursite.com/the-paradox-of-choice</id>
+    <id>http://southpolesteve.com/the-paradox-of-choice</id>
     <content type="html"><![CDATA[<p>A really interesting talk on how too many choices is a bad thing.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Goin South]]></title>
-    <link href="http://yoursite.com/goin-south/"/>
+    <link href="http://southpolesteve.com/goin-south/"/>
     <updated>2010-02-14T17:01:55-06:00</updated>
-    <id>http://yoursite.com/goin-south</id>
+    <id>http://southpolesteve.com/goin-south</id>
     <content type="html"><![CDATA[<p>Currently in Mississippi headed to MS State for the Kentucky basketball game.
 Pretty excited because I get to check a few more states off the list. I&#8217;m also
 trying out posting to the blog from my phone. Hopefully it works out!</p>
@@ -284,9 +284,9 @@ trying out posting to the blog from my phone. Hopefully it works out!</p>
   
   <entry>
     <title type="html"><![CDATA[Send Me to Haiti]]></title>
-    <link href="http://yoursite.com/send-me-to-haiti/"/>
+    <link href="http://southpolesteve.com/send-me-to-haiti/"/>
     <updated>2010-01-23T12:11:45-06:00</updated>
-    <id>http://yoursite.com/send-me-to-haiti</id>
+    <id>http://southpolesteve.com/send-me-to-haiti</id>
     <content type="html"><![CDATA[<p>Today&#8217;s post is simple.  Go here: <a href="http://bit.ly/8kbVjX">http://bit.ly/8kbVjX</a>
 and follow the donation instructions</p>
 
@@ -297,9 +297,9 @@ but currently they only have enough funding for one.</p>
   
   <entry>
     <title type="html"><![CDATA[What if an Earthquake Hit My City?]]></title>
-    <link href="http://yoursite.com/what-if-an-earthquake-hit-my-city/"/>
+    <link href="http://southpolesteve.com/what-if-an-earthquake-hit-my-city/"/>
     <updated>2010-01-19T21:30:24-06:00</updated>
-    <id>http://yoursite.com/what-if-an-earthquake-hit-my-city</id>
+    <id>http://southpolesteve.com/what-if-an-earthquake-hit-my-city</id>
     <content type="html"><![CDATA[<p>After seeing some of the horrific images coming out of Haiti, I started asking
 myself this question. Actually, the first question I asked was, &#8220;How do I get
 on a plane to Haiti?&#8221; After some research, it turns out experience is usually
@@ -325,9 +325,9 @@ here</a>.</p>
   
   <entry>
     <title type="html"><![CDATA[Google vs. China]]></title>
-    <link href="http://yoursite.com/google-vs-china/"/>
+    <link href="http://southpolesteve.com/google-vs-china/"/>
     <updated>2010-01-13T20:27:47-06:00</updated>
-    <id>http://yoursite.com/google-vs-china</id>
+    <id>http://southpolesteve.com/google-vs-china</id>
     <content type="html"><![CDATA[<p><a href="http://www.cnn.com/2010/TECH/01/13/google.china.an%0Aalysis/index.html?eref=rss_world&amp;utm_source=feedburner&amp;utm_medium=feed&amp;utm_cam%0Apaign=Feed:+rss/cnn_world+(RSS:+World">CNN.com: Google vs. China</a>)</p>
 
 <p>This is starting to make some mainstream headlines.  It&#8217;s not entirely
@@ -341,9 +341,9 @@ makes the evening news.</p>
   
   <entry>
     <title type="html"><![CDATA[I Need to Post More! (Lenovo Tablet Computer)]]></title>
-    <link href="http://yoursite.com/i-need-to-post-more-lenovo-tablet-computer/"/>
+    <link href="http://southpolesteve.com/i-need-to-post-more-lenovo-tablet-computer/"/>
     <updated>2010-01-04T20:59:53-06:00</updated>
-    <id>http://yoursite.com/i-need-to-post-more-lenovo-tablet-computer</id>
+    <id>http://southpolesteve.com/i-need-to-post-more-lenovo-tablet-computer</id>
     <content type="html"><![CDATA[<p>I realized that I have been neglecting this blog lately.  I guess since I&#8217;m
 not half way across the world I kind of forgot about it.  Since my life has
 become a little more normal, I figured I would start posting more often, and
