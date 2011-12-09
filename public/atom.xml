@@ -4,7 +4,7 @@
   <title><![CDATA[South Pole Steve]]></title>
   <link href="http://southpolesteve.com/atom.xml" rel="self"/>
   <link href="http://southpolesteve.com/"/>
-  <updated>2011-12-09T11:44:02-06:00</updated>
+  <updated>2011-12-09T11:46:43-06:00</updated>
   <id>http://southpolesteve.com/</id>
   <author>
     <name><![CDATA[Steve Faulkner]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Transfering Data Between Heroku Applications]]></title>
+    <title type="html"><![CDATA[Transferring Data Between Heroku Applications]]></title>
     <link href="http://southpolesteve.com/transfering-data-between-heroku-applications/"/>
     <updated>2011-12-09T11:32:00-06:00</updated>
     <id>http://southpolesteve.com/transfering-data-between-heroku-applications</id>

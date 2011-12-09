@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Transfering Data Between Heroku Applications"
+title: "Transferring Data Between Heroku Applications"
 date: 2011-12-09 11:32
 comments: true
 categories: 
