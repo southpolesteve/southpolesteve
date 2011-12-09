@@ -9,7 +9,7 @@
   <meta name="author" content="Steve Faulkner">
 
   
-  <meta name="description" content="This morning I came across an article on hacker news titled Rails Is Not For Beginners. The article is actually about Sinatra, but the link-bait &hellip;">
+  <meta name="description" content="Today I found myself needing to move data between two heroku apps. If you have the pgbackups addon installed, it turns out this is really easy: 1 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -74,6 +74,50 @@
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/transfering-data-between-heroku-applications/">Transfering Data Between Heroku Applications</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2011-12-09T11:32:00-06:00" pubdate data-updated="true">Dec 9<span>th</span>, 2011</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Today I found myself needing to move data between two heroku apps.  If you have the pgbackups addon installed, it turns out this is really easy:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>heroku pgbackups:restore DATABASE `heroku pgbackups:url --app myapp` --app myapp-staging</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Heroku covers the process more in depth in their <a href="" title="http://devcenter.heroku.com/articles/pgbackups">documentation</a></p>
+
+<p>Heroku rocks!</p>
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -452,47 +496,6 @@ YouTube, Twitter, etc).  Highly recommended.</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/tax-brackets-infographic/">Tax Brackets [Infographic]</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-04-26T13:58:25-05:00" pubdate data-updated="true">Apr 26<span>th</span>, 2010</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>I am a sucker for well done infographics. I found this one particularly
-interesting. Click the picture for a larger version</p>
-
-<p><a href="http://www.weathersealed.com/wp-%0Acontent/uploads/2010/04/brackets.jpg"><img src="http://www.weathersealed.com/wp-%0Acontent/uploads/2010/04/brackets.jpg" alt="" /></a></p>
-
-<p>Source: <a href="http://www.coolinfographics.com/blog/2010/4/26%0A/visualizing-tax-brackets.html">Cool Infographics</a></p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
       <a class="prev" href="/blog/page/2/">&larr; Older</a>
@@ -508,6 +511,10 @@ interesting. Click the picture for a larger version</p>
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/transfering-data-between-heroku-applications/">Transfering Data Between Heroku Applications</a>
+      </li>
+    
+      <li class="post">
         <a href="/rails-is-for-beginners/">Rails is for Beginners</a>
       </li>
     
@@ -521,10 +528,6 @@ interesting. Click the picture for a larger version</p>
     
       <li class="post">
         <a href="/vote-for-geohuddle-in-the-ge-ecomagination-challenge/">Vote for GeoHuddle in the GE Ecomagination Challenge</a>
-      </li>
-    
-      <li class="post">
-        <a href="/sailing-through-june-4th-2010/">Sailing Through June 4th 2010</a>
       </li>
     
   </ul>

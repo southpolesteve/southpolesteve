@@ -4,7 +4,7 @@
   <title><![CDATA[South Pole Steve]]></title>
   <link href="http://southpolesteve.com/atom.xml" rel="self"/>
   <link href="http://southpolesteve.com/"/>
-  <updated>2011-12-08T12:13:03-06:00</updated>
+  <updated>2011-12-09T11:44:02-06:00</updated>
   <id>http://southpolesteve.com/</id>
   <author>
     <name><![CDATA[Steve Faulkner]]></name>
@@ -12,6 +12,23 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Transfering Data Between Heroku Applications]]></title>
+    <link href="http://southpolesteve.com/transfering-data-between-heroku-applications/"/>
+    <updated>2011-12-09T11:32:00-06:00</updated>
+    <id>http://southpolesteve.com/transfering-data-between-heroku-applications</id>
+    <content type="html"><![CDATA[<p>Today I found myself needing to move data between two heroku apps.  If you have the pgbackups addon installed, it turns out this is really easy:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>heroku pgbackups:restore DATABASE `heroku pgbackups:url --app myapp` --app myapp-staging</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Heroku covers the process more in depth in their <a href="" title="http://devcenter.heroku.com/articles/pgbackups">documentation</a></p>
+
+<p>Heroku rocks!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Rails is for Beginners]]></title>
@@ -336,28 +353,6 @@ entire government is interesting.  I think it&#8217;s with good intentions this
 time, but what is to say this kind of pressuring can&#8217;t happen when the company
 has less noble motives.  The truth is that it probably does happen but rarely
 makes the evening news.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[I Need to Post More! (Lenovo Tablet Computer)]]></title>
-    <link href="http://southpolesteve.com/i-need-to-post-more-lenovo-tablet-computer/"/>
-    <updated>2010-01-04T20:59:53-06:00</updated>
-    <id>http://southpolesteve.com/i-need-to-post-more-lenovo-tablet-computer</id>
-    <content type="html"><![CDATA[<p>I realized that I have been neglecting this blog lately.  I guess since I&#8217;m
-not half way across the world I kind of forgot about it.  Since my life has
-become a little more normal, I figured I would start posting more often, and
-posting about more traditional things. Life, TV shows, Politics, Tech, etc.
-So here it goes!</p>
-
-<p>I just wanted to direct you to this post:</p>
-
-<p><a href="http://www.engadget.com/2010/01/04/lenovo-ideapad-u1%0A-hybrid-laptop-by-day-unhinged-tablet-by-nigh/">http://www.engadget.com/2010/01/04/lenovo-ideapad-u1-hybrid-laptop-by-day-
-unhinged-tablet-by-nigh/</a></p>
-
-<p>Very cool!  Some of you might be aware that Apple is heavily rumored to be
-releasing a tablet computer sometime at the end of January.  This product by
-Lenovo is way cooler.  It is a tablet that I might actually use.</p>
 ]]></content>
   </entry>
   
