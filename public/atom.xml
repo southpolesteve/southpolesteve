@@ -4,7 +4,7 @@
   <title><![CDATA[South Pole Steve]]></title>
   <link href="http://southpolesteve.com/atom.xml" rel="self"/>
   <link href="http://southpolesteve.com/"/>
-  <updated>2011-12-16T21:35:15-06:00</updated>
+  <updated>2012-03-07T17:03:25-06:00</updated>
   <id>http://southpolesteve.com/</id>
   <author>
     <name><![CDATA[Steve Faulkner]]></name>
@@ -12,6 +12,17 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Email Unsubscribe from Hell]]></title>
+    <link href="http://southpolesteve.com/email-unsubscribe-from-hell/"/>
+    <updated>2012-03-07T16:25:00-06:00</updated>
+    <id>http://southpolesteve.com/email-unsubscribe-from-hell</id>
+    <content type="html"><![CDATA[<p>Look at this picture. See where I have circled the unsubscirbe link? Yes, that grey text with no underline is a link.  Secha Touch, who sent this email, should be ashamed.</p>
+
+<p><img class="left" src="http://southpolesteve.com/images/unsubscribe.jpg" title="" ></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Transferring Data Between Heroku Applications]]></title>
@@ -337,22 +348,6 @@ from drop shipping to a international disaster relief effort, but at least it
 is a first step. If you have a couple free Saturdays and are interested in
 finding out about how you can register for CERT <a href="http://www.citizencorps.gov/cc/searchCert.do?submitByZip">click
 here</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Google vs. China]]></title>
-    <link href="http://southpolesteve.com/google-vs-china/"/>
-    <updated>2010-01-13T20:27:47-06:00</updated>
-    <id>http://southpolesteve.com/google-vs-china</id>
-    <content type="html"><![CDATA[<p><a href="http://www.cnn.com/2010/TECH/01/13/google.china.an%0Aalysis/index.html?eref=rss_world&amp;utm_source=feedburner&amp;utm_medium=feed&amp;utm_cam%0Apaign=Feed:+rss/cnn_world+(RSS:+World">CNN.com: Google vs. China</a>)</p>
-
-<p>This is starting to make some mainstream headlines.  It&#8217;s not entirely
-benevolent on Google&#8217;s part, but the idea of a single company taking on an
-entire government is interesting.  I think it&#8217;s with good intentions this
-time, but what is to say this kind of pressuring can&#8217;t happen when the company
-has less noble motives.  The truth is that it probably does happen but rarely
-makes the evening news.</p>
 ]]></content>
   </entry>
   
