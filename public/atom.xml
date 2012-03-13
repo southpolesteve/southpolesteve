@@ -4,7 +4,7 @@
   <title><![CDATA[South Pole Steve]]></title>
   <link href="http://southpolesteve.com/atom.xml" rel="self"/>
   <link href="http://southpolesteve.com/"/>
-  <updated>2012-03-07T21:56:44-06:00</updated>
+  <updated>2012-03-11T12:22:22-05:00</updated>
   <id>http://southpolesteve.com/</id>
   <author>
     <name><![CDATA[Steve Faulkner]]></name>
@@ -20,7 +20,8 @@
     <id>http://southpolesteve.com/email-unsubscribe-from-hell</id>
     <content type="html"><![CDATA[<p>Look at this picture. See where I have circled the unsubscirbe link? Yes, that grey text with no underline is a link.  Secha Touch, who sent this email, should be ashamed.</p>
 
-<p><img class="left" src="http://southpolesteve.com/images/unsubscribe.jpg" title="" ></p>
+<div class='thumbnail'><img class="left" src="http://southpolesteve.com/images/unsubscribe.jpg" title="" ></div>
+
 ]]></content>
   </entry>
   
@@ -31,8 +32,7 @@
     <id>http://southpolesteve.com/transfering-data-between-heroku-applications</id>
     <content type="html"><![CDATA[<p>Today I found myself needing to move data between two heroku apps.  If you have the pgbackups addon installed, it turns out this is really easy:</p>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>heroku pgbackups:restore DATABASE `heroku pgbackups:url --app myapp` --app myapp-staging</span></code></pre></td></tr></table></div></figure>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"></pre></td><td class='code'><pre><code class=''><span class='line'>heroku pgbackups:restore DATABASE `heroku pgbackups:url --app myapp` --app myapp-staging</span></code></td></tr></table></div></figure>
 
 
 <p>Heroku covers the process more in depth in their <a href="" title="http://devcenter.heroku.com/articles/pgbackups">documentation</a></p>

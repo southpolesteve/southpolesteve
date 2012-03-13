@@ -9,7 +9,7 @@
   <meta name="author" content="Steve Faulkner">
 
   
-  <meta name="description" content="Today I found myself needing to move data between two heroku apps. If you have the pgbackups addon installed, it turns out this is really easy: 1 &hellip;">
+  <meta name="description" content="Today I found myself needing to move data between two heroku apps. If you have the pgbackups addon installed, it turns out this is really easy: &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -46,7 +46,8 @@
 </head>
 
 <body   >
-  <header role="banner"><hgroup>
+  <div class= "container">
+    <header role="banner"><hgroup>
   <h1><a href="/">South Pole Steve</a></h1>
   
     <h2>I went to the South Pole once. Now I make stuff on the internet.</h2>
@@ -54,7 +55,7 @@
 </hgroup>
 
 </header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+    <nav role="navigation"><ul class="subscription" data-subscription="rss">
   <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
   
 </ul>
@@ -70,11 +71,12 @@
 </ul>
 
 </nav>
-  <div id="main">
-    <div id="content">
-      <div>
-<article class="hentry" role="article">
-  
+    <div id="main">
+      <div id="content">
+        <div class="row">
+  <div class="span8">
+    <article class="hentry" role="article">
+      
   <header>
     
       <h1 class="entry-title">Transferring Data Between Heroku Applications</h1>
@@ -102,8 +104,7 @@
 
 <div class="entry-content"><p>Today I found myself needing to move data between two heroku apps.  If you have the pgbackups addon installed, it turns out this is really easy:</p>
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>heroku pgbackups:restore DATABASE `heroku pgbackups:url --app myapp` --app myapp-staging</span></code></pre></td></tr></table></div></figure>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"></pre></td><td class='code'><pre><code class=''><span class='line'>heroku pgbackups:restore DATABASE `heroku pgbackups:url --app myapp` --app myapp-staging</span></code></td></tr></table></div></figure>
 
 
 <p>Heroku covers the process more in depth in their <a href="" title="http://devcenter.heroku.com/articles/pgbackups">documentation</a></p>
@@ -112,14 +113,14 @@
 </div>
 
 
-  <footer>
-    <p class="meta">
-      
+      <footer>
+        <p class="meta">
+          
   
 
 <span class="byline author vcard">Posted by <span class="fn">Steve Faulkner</span></span>
 
-      
+          
 
 
 
@@ -132,12 +133,12 @@
 
 
 <time datetime="2011-12-09T11:32:00-06:00" pubdate data-updated="true">Dec 9<span>th</span>, 2011</time>
-      
+          
 
 
-    </p>
-    
-      <div class="sharing">
+        </p>
+        
+          <div class="sharing">
   
   <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://southpolesteve.com/transfering-data-between-heroku-applications/" data-via="southpolesteve" data-counturl="http://southpolesteve.com/transfering-data-between-heroku-applications/" >Tweet</a>
   
@@ -147,29 +148,30 @@
   
 </div>
 
+        
+        <p class="meta">
+          
+            <a class="basic-alignment left" href="/rails-is-for-beginners/" title="Previous Post: Rails is for Beginners">&laquo; Rails is for Beginners</a>
+          
+          
+            <a class="basic-alignment right" href="/email-unsubscribe-from-hell/" title="next Post: Email Unsubscribe from Hell">Email Unsubscribe from Hell &raquo;</a>
+          
+        </p>
+      </footer>
+    </article>
     
-    <p class="meta">
-      
-        <a class="basic-alignment left" href="/rails-is-for-beginners/" title="Previous Post: Rails is for Beginners">&laquo; Rails is for Beginners</a>
-      
-      
-        <a class="basic-alignment right" href="/email-unsubscribe-from-hell/" title="next Post: Email Unsubscribe from Hell">Email Unsubscribe from Hell &raquo;</a>
-      
-    </p>
-  </footer>
-</article>
-
-  <section>
-    <h1>Comments</h1>
-    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      <section>
+        <h1>Comments</h1>
+        <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
-  </section>
-
-</div>
-
-<aside class="sidebar">
+      </section>
+    
+  </div>
   
-    <section>
+  <div class="span4">
+    <aside class="sidebar">
+      
+        <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
@@ -246,19 +248,20 @@
 
 
 
-  
-</aside>
-
-
-    </div>
+      
+    </aside>
   </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2012 - Steve Faulkner -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+  
+</div>
+
+      </div>
+    </div>
+    <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Steve Faulkner
 </p>
 
 </footer>
-  
+    
 
 <script type="text/javascript">
       var disqus_shortname = 'southpolesteve';
@@ -305,5 +308,6 @@
 
 
 
+  </div>
 </body>
 </html>

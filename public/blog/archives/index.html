@@ -49,7 +49,8 @@ Dec &hellip;">
 </head>
 
 <body   >
-  <header role="banner"><hgroup>
+  <div class= "container">
+    <header role="banner"><hgroup>
   <h1><a href="/">South Pole Steve</a></h1>
   
     <h2>I went to the South Pole once. Now I make stuff on the internet.</h2>
@@ -57,7 +58,7 @@ Dec &hellip;">
 </hgroup>
 
 </header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+    <nav role="navigation"><ul class="subscription" data-subscription="rss">
   <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
   
 </ul>
@@ -73,17 +74,18 @@ Dec &hellip;">
 </ul>
 
 </nav>
-  <div id="main">
-    <div id="content">
-      <div>
-<article role="article">
-  
-  <header>
-    <h1 class="entry-title">Blog Archive</h1>
-    
-  </header>
-  
-  <div id="blog-archives">
+    <div id="main">
+      <div id="content">
+        <div class="row">
+  <div class="span8">
+    <article role="article">
+      
+      <header>
+        <h1 class="entry-title">Blog Archive</h1>
+        
+      </header>
+      
+      <div id="blog-archives">
 
 
 
@@ -1052,14 +1054,15 @@ Dec &hellip;">
 
 </div>
 
+      
+    </article>
+    
+  </div>
   
-</article>
-
-</div>
-
-<aside class="sidebar">
-  
-    <section>
+  <div class="span4">
+    <aside class="sidebar">
+      
+        <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
@@ -1136,19 +1139,20 @@ Dec &hellip;">
 
 
 
-  
-</aside>
-
-
-    </div>
+      
+    </aside>
   </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2012 - Steve Faulkner -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+  
+</div>
+
+      </div>
+    </div>
+    <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Steve Faulkner
 </p>
 
 </footer>
-  
+    
 
 <script type="text/javascript">
       var disqus_shortname = 'southpolesteve';
@@ -1192,5 +1196,6 @@ Dec &hellip;">
 
 
 
+  </div>
 </body>
 </html>

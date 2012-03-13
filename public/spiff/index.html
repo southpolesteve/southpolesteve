@@ -47,7 +47,8 @@ Otherwise known as SPIFF.  They show a bunch of short films made by people &hel
 </head>
 
 <body   >
-  <header role="banner"><hgroup>
+  <div class= "container">
+    <header role="banner"><hgroup>
   <h1><a href="/">South Pole Steve</a></h1>
   
     <h2>I went to the South Pole once. Now I make stuff on the internet.</h2>
@@ -55,7 +56,7 @@ Otherwise known as SPIFF.  They show a bunch of short films made by people &hel
 </hgroup>
 
 </header>
-  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+    <nav role="navigation"><ul class="subscription" data-subscription="rss">
   <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
   
 </ul>
@@ -71,11 +72,12 @@ Otherwise known as SPIFF.  They show a bunch of short films made by people &hel
 </ul>
 
 </nav>
-  <div id="main">
-    <div id="content">
-      <div>
-<article class="hentry" role="article">
-  
+    <div id="main">
+      <div id="content">
+        <div class="row">
+  <div class="span8">
+    <article class="hentry" role="article">
+      
   <header>
     
       <h1 class="entry-title">SPIFF</h1>
@@ -124,14 +126,14 @@ is over 2 GB in size.  It may take a while to download, so be aware.</p>
 </div>
 
 
-  <footer>
-    <p class="meta">
-      
+      <footer>
+        <p class="meta">
+          
   
 
 <span class="byline author vcard">Posted by <span class="fn">faulkner</span></span>
 
-      
+          
 
 
 
@@ -144,12 +146,12 @@ is over 2 GB in size.  It may take a while to download, so be aware.</p>
 
 
 <time datetime="2009-01-26T05:01:43-06:00" pubdate data-updated="true">Jan 26<span>th</span>, 2009</time>
-      
+          
 
 
-    </p>
-    
-      <div class="sharing">
+        </p>
+        
+          <div class="sharing">
   
   <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://southpolesteve.com/spiff/" data-via="southpolesteve" data-counturl="http://southpolesteve.com/spiff/" >Tweet</a>
   
@@ -159,23 +161,24 @@ is over 2 GB in size.  It may take a while to download, so be aware.</p>
   
 </div>
 
+        
+        <p class="meta">
+          
+            <a class="basic-alignment left" href="/we-are-done-drilling/" title="Previous Post: We Are Done Drilling!">&laquo; We Are Done Drilling!</a>
+          
+          
+            <a class="basic-alignment right" href="/south-pole-telescope/" title="next Post: South Pole Telescope">South Pole Telescope &raquo;</a>
+          
+        </p>
+      </footer>
+    </article>
     
-    <p class="meta">
-      
-        <a class="basic-alignment left" href="/we-are-done-drilling/" title="Previous Post: We Are Done Drilling!">&laquo; We Are Done Drilling!</a>
-      
-      
-        <a class="basic-alignment right" href="/south-pole-telescope/" title="next Post: South Pole Telescope">South Pole Telescope &raquo;</a>
-      
-    </p>
-  </footer>
-</article>
-
-</div>
-
-<aside class="sidebar">
+  </div>
   
-    <section>
+  <div class="span4">
+    <aside class="sidebar">
+      
+        <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
@@ -252,19 +255,20 @@ is over 2 GB in size.  It may take a while to download, so be aware.</p>
 
 
 
-  
-</aside>
-
-
-    </div>
+      
+    </aside>
   </div>
-  <footer role="contentinfo"><p>
-  Copyright &copy; 2012 - Steve Faulkner -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+  
+</div>
+
+      </div>
+    </div>
+    <footer role="contentinfo"><p>
+  Copyright &copy; 2012 - Steve Faulkner
 </p>
 
 </footer>
-  
+    
 
 <script type="text/javascript">
       var disqus_shortname = 'southpolesteve';
@@ -308,5 +312,6 @@ is over 2 GB in size.  It may take a while to download, so be aware.</p>
 
 
 
+  </div>
 </body>
 </html>
