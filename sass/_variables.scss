@@ -99,7 +99,7 @@ $infoBorder:              darken(adjust-hue($infoBackground, -10), 7%) !default;
 // Default 940px grid
 $gridColumns:             12 !default;
 $gridColumnWidth:         60px !default;
-$gridGutterWidth:         20px !default;
+$gridGutterWidth:         35px !default;
 $gridRowWidth:            ($gridColumns * $gridColumnWidth) + ($gridGutterWidth * ($gridColumns - 1));
 
 // Fluid grid

@@ -1,1 +1,12 @@
 @import "bootstrap";
+
+header {
+  border-right: 1px solid #DDD;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+}
+
+#content {
+  position: relative;
+}
