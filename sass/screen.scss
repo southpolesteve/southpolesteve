@@ -3,10 +3,36 @@
 header {
   border-right: 1px solid #DDD;
   position: fixed;
-  top: 0;
+  top: 30px;
   bottom: 0;
+}
+
+body {
+  padding-top: 30px;
+}
+
+article {
+  padding-bottom: 20px;
 }
 
 #content {
   position: relative;
+  float: left;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+h1 {
+  font-family: 'Vollkorn', serif;
+
+  a {
+    &:hover {
+      text-decoration:none;
+    } 
+  }
+
 }
