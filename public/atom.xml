@@ -4,7 +4,7 @@
   <title><![CDATA[South Pole Steve]]></title>
   <link href="http://southpolesteve.com/atom.xml" rel="self"/>
   <link href="http://southpolesteve.com/"/>
-  <updated>2012-04-08T23:55:46-04:00</updated>
+  <updated>2012-04-08T23:57:41-04:00</updated>
   <id>http://southpolesteve.com/</id>
   <author>
     <name><![CDATA[Steve Faulkner]]></name>
@@ -14,20 +14,11 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Url For Anything With Activemodel]]></title>
+    <title type="html"><![CDATA[url_for(anything) with ActiveModel]]></title>
     <link href="http://southpolesteve.com/url-for-anything-with-activemodel/"/>
-    <updated>2012-04-08T00:00:00-04:00</updated>
+    <updated>2012-04-08T23:23:00-04:00</updated>
     <id>http://southpolesteve.com/url-for-anything-with-activemodel</id>
-    <content type="html"><![CDATA[<hr />
-
-<p>layout: post
-title: &#8220;url_for(anything) with ActiveModel&#8221;
-date: 2012-04-08 23:23
-comments: true
-categories:
-&#8212;`</p>
-
-<p>This weekend, while working on upgrading <a href="https://www.murfie.com">murfie.com</a> to Rails 3, I found a situation requiring url_for()&#8230; except, I wasn&#8217;t using it with an ActiveRecord model :/</p>
+    <content type="html"><![CDATA[<p>This weekend, while working on upgrading <a href="https://www.murfie.com">murfie.com</a> to Rails 3, I found a situation requiring url_for()&#8230; except, I wasn&#8217;t using it with an ActiveRecord model :/</p>
 
 <p><a href="http://yehudakatz.com/2010/01/10/activemodel-make-any-ruby-object-feel-like-activerecord/">Yehunda Katz and ActiveModel</a> to the rescue! Rails 3&#8217;s ActiveModel is a great way to mix ActiveRecord functionality into any object. Yehunda&#8217;s article covers validations and serialization, but glosses over ActiveModel::Naming.</p>
 

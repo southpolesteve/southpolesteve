@@ -4,7 +4,7 @@ title: "url_for(anything) with ActiveModel"
 date: 2012-04-08 23:23
 comments: true
 categories: 
----`
+---
 
 This weekend, while working on upgrading [murfie.com](https://www.murfie.com) to Rails 3, I found a situation requiring url_for()... except, I wasn't using it with an ActiveRecord model :/
 
