@@ -4,7 +4,7 @@
   <title><![CDATA[South Pole Steve]]></title>
   <link href="http://southpolesteve.com/atom.xml" rel="self"/>
   <link href="http://southpolesteve.com/"/>
-  <updated>2012-03-23T23:18:57-05:00</updated>
+  <updated>2012-04-08T23:15:18-04:00</updated>
   <id>http://southpolesteve.com/</id>
   <author>
     <name><![CDATA[Steve Faulkner]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Email Unsubscribe from Hell]]></title>
     <link href="http://southpolesteve.com/email-unsubscribe-from-hell/"/>
-    <updated>2012-03-07T16:25:00-06:00</updated>
+    <updated>2012-03-07T16:25:00-05:00</updated>
     <id>http://southpolesteve.com/email-unsubscribe-from-hell</id>
     <content type="html"><![CDATA[<p>Look at this picture. See where I have circled the unsubscirbe link? Yes, that grey text with no underline is a link.  Secha Touch, who sent this email, should be ashamed.</p>
 
@@ -28,7 +28,7 @@
   <entry>
     <title type="html"><![CDATA[Transferring Data Between Heroku Applications]]></title>
     <link href="http://southpolesteve.com/transfering-data-between-heroku-applications/"/>
-    <updated>2011-12-09T11:32:00-06:00</updated>
+    <updated>2011-12-09T11:32:00-05:00</updated>
     <id>http://southpolesteve.com/transfering-data-between-heroku-applications</id>
     <content type="html"><![CDATA[<p>Today I found myself needing to move data between two heroku apps.  If you have the pgbackups addon installed, it turns out this is really easy:</p>
 
@@ -44,7 +44,7 @@
   <entry>
     <title type="html"><![CDATA[Rails is for Beginners]]></title>
     <link href="http://southpolesteve.com/rails-is-for-beginners/"/>
-    <updated>2011-12-08T11:09:00-06:00</updated>
+    <updated>2011-12-08T11:09:00-05:00</updated>
     <id>http://southpolesteve.com/rails-is-for-beginners</id>
     <content type="html"><![CDATA[<p>This morning I came across an article on hacker news titled <a href="http://www.horsesaysinternet.com/code/rails-is-not-for-beginners/">Rails Is Not For Beginners</a>. The article is actually about Sinatra, but the link-bait title is dead wrong. Rails is perfect for beginners and here is why &#8230;</p>
 
@@ -63,7 +63,7 @@
   <entry>
     <title type="html"><![CDATA[Moving to Octopress]]></title>
     <link href="http://southpolesteve.com/test-post/"/>
-    <updated>2011-11-19T21:47:00-06:00</updated>
+    <updated>2011-11-19T21:47:00-05:00</updated>
     <id>http://southpolesteve.com/test-post</id>
     <content type="html"><![CDATA[<p>I&#8217;m moving the blog from dreamhost+wordpress to heroku+octopress (which is built on jekyll). Anything before this point in the blog has been imported and might be a little off.  You have been warned!</p>
 ]]></content>
@@ -72,7 +72,7 @@
   <entry>
     <title type="html"><![CDATA[Radio Interview for GeoHuddle]]></title>
     <link href="http://southpolesteve.com/radio-interview-for-geohuddle/"/>
-    <updated>2010-09-06T21:52:51-05:00</updated>
+    <updated>2010-09-06T21:52:51-04:00</updated>
     <id>http://southpolesteve.com/radio-interview-for-geohuddle</id>
     <content type="html"><![CDATA[<p>Last Friday, I did a radio interview on 1670 AM for my startup -
 <a href="http://www.geohuddle.com">GeoHuddle</a>.  The full audio is available here:</p>
@@ -88,7 +88,7 @@ Interview with Steve Faulkner&#8221;]</p>
   <entry>
     <title type="html"><![CDATA[Vote for GeoHuddle in the GE Ecomagination Challenge]]></title>
     <link href="http://southpolesteve.com/vote-for-geohuddle-in-the-ge-ecomagination-challenge/"/>
-    <updated>2010-07-25T10:03:59-05:00</updated>
+    <updated>2010-07-25T10:03:59-04:00</updated>
     <id>http://southpolesteve.com/vote-for-geohuddle-in-the-ge-ecomagination-challenge</id>
     <content type="html"><![CDATA[<p>As some of you might know, I am working on a new startup company these days
 called GeoHuddle. We are developing a new style of community geothermal energy
@@ -102,7 +102,7 @@ announced $200 million dollar <a href="http://challenge.ec%0Aomagination.com/ct
   <entry>
     <title type="html"><![CDATA[Sailing Through June 4th 2010]]></title>
     <link href="http://southpolesteve.com/sailing-through-june-4th-2010/"/>
-    <updated>2010-06-06T12:47:17-05:00</updated>
+    <updated>2010-06-06T12:47:17-04:00</updated>
     <id>http://southpolesteve.com/sailing-through-june-4th-2010</id>
     <content type="html"><![CDATA[<p><a href="http://www.southpolesteve.com/wp-%0Acontent/uploads/Sailing.jpg"><img src="http://www.southpolesteve.com/wp-%0Acontent/uploads/Sailing.jpg" alt="" /></a></p>
 
@@ -115,7 +115,7 @@ announced $200 million dollar <a href="http://challenge.ec%0Aomagination.com/ct
   <entry>
     <title type="html"><![CDATA[Practicing Landings]]></title>
     <link href="http://southpolesteve.com/practicing-landings/"/>
-    <updated>2010-05-16T23:29:29-05:00</updated>
+    <updated>2010-05-16T23:29:29-04:00</updated>
     <id>http://southpolesteve.com/practicing-landings</id>
     <content type="html"><![CDATA[<p>Can&#8217;t help but post about this again. GPS tracking for sailing is pretty
 awesome! Today I sailed 25 total miles and had a max speed of almost 10 mph.
@@ -132,7 +132,7 @@ about my sailing this summer.</p>
   <entry>
     <title type="html"><![CDATA[Iceland Volcano Time Lapse]]></title>
     <link href="http://southpolesteve.com/iceland-volcano-time-lapse/"/>
-    <updated>2010-05-15T20:38:28-05:00</updated>
+    <updated>2010-05-15T20:38:28-04:00</updated>
     <id>http://southpolesteve.com/iceland-volcano-time-lapse</id>
     <content type="html"><![CDATA[<p>I ran into this video today and just had to pass it along. Sweet video time
 lapse of the volcano in Iceland. Make me want to go to Iceland so bad, and
@@ -146,7 +146,7 @@ from <a href="http://vimeo.com/sstieg">Sean Stiegemeier</a> on <a href="http://v
   <entry>
     <title type="html"><![CDATA[Sailing - Summer 2010]]></title>
     <link href="http://southpolesteve.com/sailing-summer-2010/"/>
-    <updated>2010-05-14T15:28:39-05:00</updated>
+    <updated>2010-05-14T15:28:39-04:00</updated>
     <id>http://southpolesteve.com/sailing-summer-2010</id>
     <content type="html"><![CDATA[<p>Used the GPS to track my sailing today for the first time.  Of course I only
 remembered to turn it on for the trip back.  But its a start!</p>
@@ -158,7 +158,7 @@ remembered to turn it on for the trip back.  But its a start!</p>
   <entry>
     <title type="html"><![CDATA[About Steve]]></title>
     <link href="http://southpolesteve.com/about-steve/"/>
-    <updated>2010-05-09T22:39:52-05:00</updated>
+    <updated>2010-05-09T22:39:52-04:00</updated>
     <id>http://southpolesteve.com/about-steve</id>
     <content type="html"><![CDATA[<p>Some of you adventurous types may have clicked the little &#8220;about&#8221; link at the
 very top of the page. If you did, you quickly realized there wasn&#8217;t much
@@ -178,7 +178,7 @@ YouTube, Twitter, etc).  Highly recommended.</p>
   <entry>
     <title type="html"><![CDATA[Tax Brackets [Infographic]]]></title>
     <link href="http://southpolesteve.com/tax-brackets-infographic/"/>
-    <updated>2010-04-26T13:58:25-05:00</updated>
+    <updated>2010-04-26T13:58:25-04:00</updated>
     <id>http://southpolesteve.com/tax-brackets-infographic</id>
     <content type="html"><![CDATA[<p>I am a sucker for well done infographics. I found this one particularly
 interesting. Click the picture for a larger version</p>
@@ -192,7 +192,7 @@ interesting. Click the picture for a larger version</p>
   <entry>
     <title type="html"><![CDATA[Ultimate Sailing Cooler]]></title>
     <link href="http://southpolesteve.com/ultimate-sailing-cooler/"/>
-    <updated>2010-04-19T13:13:14-05:00</updated>
+    <updated>2010-04-19T13:13:14-04:00</updated>
     <id>http://southpolesteve.com/ultimate-sailing-cooler</id>
     <content type="html"><![CDATA[<p><a href="http://www.redframe%0Aengineering.com/pics/cooler1.JPG"><img src="http://www.redframeengineering.com/pics/cooler1.JPG" alt="" /></a>I&#8217;m in the process of creating the &#8220;Ultimate
 Sailing Cooler&#8221;. The motivation for this is just to have the most
@@ -223,7 +223,7 @@ accelerometer.</p>
   <entry>
     <title type="html"><![CDATA[Iceland - Feb 2011]]></title>
     <link href="http://southpolesteve.com/iceland-feb-2011/"/>
-    <updated>2010-04-15T10:02:44-05:00</updated>
+    <updated>2010-04-15T10:02:44-04:00</updated>
     <id>http://southpolesteve.com/iceland-feb-2011</id>
     <content type="html"><![CDATA[<p>As some of you might know, I am probably going to move to Iceland next
 February.  I&#8217;ll be studying <a href="http://www.wikinvest.com/concept/Geothermal_energy">geothermal
@@ -245,7 +245,7 @@ from the eruption site and on the other side of the island.  See the map:</p>
   <entry>
     <title type="html"><![CDATA[What is "Disruptive"]]></title>
     <link href="http://southpolesteve.com/what-is-disruptive/"/>
-    <updated>2010-04-12T08:07:13-05:00</updated>
+    <updated>2010-04-12T08:07:13-04:00</updated>
     <id>http://southpolesteve.com/what-is-disruptive</id>
     <content type="html"><![CDATA[<p>Today&#8217;s post inspired by: <a href="http://blog.asmartbear.com/not-disruptive.html">http://blog.asmartbear.com/not-
 disruptive.html</a></p>
@@ -266,7 +266,7 @@ that is being disruptive.</p>
   <entry>
     <title type="html"><![CDATA[Networking]]></title>
     <link href="http://southpolesteve.com/networking/"/>
-    <updated>2010-04-10T12:12:21-05:00</updated>
+    <updated>2010-04-10T12:12:21-04:00</updated>
     <id>http://southpolesteve.com/networking</id>
     <content type="html"><![CDATA[<p>Building a network of contacts is one of the most important things you can do.
 My friend <a href="http://blog.justinkbeck.com">Jusitn Beck</a> did a great post about
@@ -293,7 +293,7 @@ next to you.</p>
   <entry>
     <title type="html"><![CDATA[The Paradox of Choice]]></title>
     <link href="http://southpolesteve.com/the-paradox-of-choice/"/>
-    <updated>2010-03-28T17:13:05-05:00</updated>
+    <updated>2010-03-28T17:13:05-04:00</updated>
     <id>http://southpolesteve.com/the-paradox-of-choice</id>
     <content type="html"><![CDATA[<p>A really interesting talk on how too many choices is a bad thing.</p>
 ]]></content>
@@ -302,7 +302,7 @@ next to you.</p>
   <entry>
     <title type="html"><![CDATA[Goin South]]></title>
     <link href="http://southpolesteve.com/goin-south/"/>
-    <updated>2010-02-14T17:01:55-06:00</updated>
+    <updated>2010-02-14T17:01:55-05:00</updated>
     <id>http://southpolesteve.com/goin-south</id>
     <content type="html"><![CDATA[<p>Currently in Mississippi headed to MS State for the Kentucky basketball game.
 Pretty excited because I get to check a few more states off the list. I&#8217;m also
@@ -313,7 +313,7 @@ trying out posting to the blog from my phone. Hopefully it works out!</p>
   <entry>
     <title type="html"><![CDATA[Send Me to Haiti]]></title>
     <link href="http://southpolesteve.com/send-me-to-haiti/"/>
-    <updated>2010-01-23T12:11:45-06:00</updated>
+    <updated>2010-01-23T12:11:45-05:00</updated>
     <id>http://southpolesteve.com/send-me-to-haiti</id>
     <content type="html"><![CDATA[<p>Today&#8217;s post is simple.  Go here: <a href="http://bit.ly/8kbVjX">http://bit.ly/8kbVjX</a>
 and follow the donation instructions</p>
@@ -326,7 +326,7 @@ but currently they only have enough funding for one.</p>
   <entry>
     <title type="html"><![CDATA[What if an Earthquake Hit My City?]]></title>
     <link href="http://southpolesteve.com/what-if-an-earthquake-hit-my-city/"/>
-    <updated>2010-01-19T21:30:24-06:00</updated>
+    <updated>2010-01-19T21:30:24-05:00</updated>
     <id>http://southpolesteve.com/what-if-an-earthquake-hit-my-city</id>
     <content type="html"><![CDATA[<p>After seeing some of the horrific images coming out of Haiti, I started asking
 myself this question. Actually, the first question I asked was, &#8220;How do I get
