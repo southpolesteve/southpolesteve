@@ -11,7 +11,7 @@ class SinatraStaticServer < Sinatra::Base
   end
 
   before do
-    #(response.headers['Cache-Control'] = 'public, max-age=360') if ENV["CACHE"] == true
+    (response.headers['Cache-Control'] = 'public, max-age=360') if ENV["CACHE"] == true
   end
 
   get(/.+/) do

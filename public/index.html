@@ -9,7 +9,12 @@
   <meta name="author" content="Steve Faulkner">
 
   
-  <meta name="description" content="Look at this picture. See where I have circled the unsubscirbe link? Yes, that grey text with no underline is a link. Secha Touch, who sent this &hellip;">
+  <meta name="description" content="layout: post
+title: &#8220;url_for(anything) with ActiveModel&#8221;
+date: 2012-04-08 23:23
+comments: true
+categories:
+&#8212;` This weekend, while &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -57,6 +62,73 @@
         <div id="content" class="span8 offset4">
           <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <div class="title">
+    
+      <h1 class="entry-title"><a href="/url-for-anything-with-activemodel/">Url for Anything With Activemodel</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-04-08T00:00:00-04:00" pubdate data-updated="true">Apr 8<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </div>
+
+
+  <div class="entry-content"><hr />
+
+<p>layout: post
+title: &#8220;url_for(anything) with ActiveModel&#8221;
+date: 2012-04-08 23:23
+comments: true
+categories:
+&#8212;`</p>
+
+<p>This weekend, while working on upgrading <a href="https://www.murfie.com">murfie.com</a> to Rails 3, I found a situation requiring url_for()&#8230; except, I wasn&#8217;t using it with an ActiveRecord model :/</p>
+
+<p><a href="http://yehudakatz.com/2010/01/10/activemodel-make-any-ruby-object-feel-like-activerecord/">Yehunda Katz and ActiveModel</a> to the rescue! Rails 3&#8217;s ActiveModel is a great way to mix ActiveRecord functionality into any object. Yehunda&#8217;s article covers validations and serialization, but glosses over ActiveModel::Naming.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"></pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">class</span> <span class="nc">Model</span>
+</span><span class='line'>  <span class="kp">extend</span> <span class="no">ActiveModel</span><span class="o">::</span><span class="no">Naming</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="o">.</span><span class="n">.</span><span class="o">.</span><span class="n">other</span> <span class="n">model</span> <span class="n">code</span><span class="o">.</span><span class="n">.</span><span class="o">.</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">end</span>
+</span></code></td></tr></table></div></figure>
+
+
+<p>Adding this module to a class means that url_for(Model) just works! Of course you need to have routes setup, but url_for will automatically construct the named routes if they match up with the model name.</p>
+
+<p>Under the hood, rails is calling model_name on the class of the object passed into url_for(). Model.model_name returns a string, but is actually an instance of ActiveModel::Name, which is then used by url_for() to generate the named route for the object.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"></pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">pry</span><span class="o">&gt;</span> <span class="no">User</span><span class="o">.</span><span class="n">model_name</span>
+</span><span class='line'><span class="o">=&gt;</span> <span class="s2">&quot;User&quot;</span>
+</span><span class='line'><span class="n">pry</span><span class="o">&gt;</span> <span class="no">User</span><span class="o">.</span><span class="n">model_name</span><span class="o">.</span><span class="n">class</span>
+</span><span class='line'><span class="o">=&gt;</span> <span class="no">ActiveModel</span><span class="o">::</span><span class="no">Name</span>
+</span></code></td></tr></table></div></figure>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -424,45 +496,6 @@ also to buy a super nice video camera.</p>
 
 <p><a href="http://vimeo.com/11673745">Iceland, Eyjafjallajökull - May 1st and 2nd, 2010</a>
 from <a href="http://vimeo.com/sstieg">Sean Stiegemeier</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
-      
-  <div class="title">
-    
-      <h1 class="entry-title"><a href="/sailing-summer-2010/">Sailing - Summer 2010</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2010-05-14T15:28:39-04:00" pubdate data-updated="true">May 14<span>th</span>, 2010</time>
-        
-      </p>
-    
-  </div>
-
-
-  <div class="entry-content"><p>Used the GPS to track my sailing today for the first time.  Of course I only
-remembered to turn it on for the trip back.  But its a start!</p>
-
-<p>View <a href="http://maps.google.com/maps/ms?ie=UTF8&amp;hl=en&amp;msa=0&amp;%0Amsid=113646977399379073351.0004869547d76c9d1ea4f&amp;ll=43.09434,-89.404507&amp;spn=0.%0A043873,0.072956&amp;z=13&amp;source=embed">Sailing Summer 2010</a> in a larger map</p>
 </div>
   
   

@@ -1,0 +1,32 @@
+<hr />
+
+<p>layout: post
+title: &#8220;url_for(anything) with ActiveModel&#8221;
+date: 2012-04-08 23:23
+comments: true
+categories:
+&#8212;`</p>
+
+<p>This weekend, while working on upgrading <a href="https://www.murfie.com">murfie.com</a> to Rails 3, I found a situation requiring url_for()&#8230; except, I wasn&#8217;t using it with an ActiveRecord model :/</p>
+
+<p><a href="http://yehudakatz.com/2010/01/10/activemodel-make-any-ruby-object-feel-like-activerecord/">Yehunda Katz and ActiveModel</a> to the rescue! Rails 3&#8217;s ActiveModel is a great way to mix ActiveRecord functionality into any object. Yehunda&#8217;s article covers validations and serialization, but glosses over ActiveModel::Naming.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"></pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">class</span> <span class="nc">Model</span>
+</span><span class='line'>  <span class="kp">extend</span> <span class="no">ActiveModel</span><span class="o">::</span><span class="no">Naming</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="o">.</span><span class="n">.</span><span class="o">.</span><span class="n">other</span> <span class="n">model</span> <span class="n">code</span><span class="o">.</span><span class="n">.</span><span class="o">.</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">end</span>
+</span></code></td></tr></table></div></figure>
+
+
+<p>Adding this module to a class means that url_for(Model) just works! Of course you need to have routes setup, but url_for will automatically construct the named routes if they match up with the model name.</p>
+
+<p>Under the hood, rails is calling model_name on the class of the object passed into url_for(). Model.model_name returns a string, but is actually an instance of ActiveModel::Name, which is then used by url_for() to generate the named route for the object.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"></pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">pry</span><span class="o">&gt;</span> <span class="no">User</span><span class="o">.</span><span class="n">model_name</span>
+</span><span class='line'><span class="o">=&gt;</span> <span class="s2">&quot;User&quot;</span>
+</span><span class='line'><span class="n">pry</span><span class="o">&gt;</span> <span class="no">User</span><span class="o">.</span><span class="n">model_name</span><span class="o">.</span><span class="n">class</span>
+</span><span class='line'><span class="o">=&gt;</span> <span class="no">ActiveModel</span><span class="o">::</span><span class="no">Name</span>
+</span></code></td></tr></table></div></figure>
+

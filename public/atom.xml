@@ -4,7 +4,7 @@
   <title><![CDATA[South Pole Steve]]></title>
   <link href="http://southpolesteve.com/atom.xml" rel="self"/>
   <link href="http://southpolesteve.com/"/>
-  <updated>2012-04-08T23:15:18-04:00</updated>
+  <updated>2012-04-08T23:55:46-04:00</updated>
   <id>http://southpolesteve.com/</id>
   <author>
     <name><![CDATA[Steve Faulkner]]></name>
@@ -12,6 +12,46 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Url For Anything With Activemodel]]></title>
+    <link href="http://southpolesteve.com/url-for-anything-with-activemodel/"/>
+    <updated>2012-04-08T00:00:00-04:00</updated>
+    <id>http://southpolesteve.com/url-for-anything-with-activemodel</id>
+    <content type="html"><![CDATA[<hr />
+
+<p>layout: post
+title: &#8220;url_for(anything) with ActiveModel&#8221;
+date: 2012-04-08 23:23
+comments: true
+categories:
+&#8212;`</p>
+
+<p>This weekend, while working on upgrading <a href="https://www.murfie.com">murfie.com</a> to Rails 3, I found a situation requiring url_for()&#8230; except, I wasn&#8217;t using it with an ActiveRecord model :/</p>
+
+<p><a href="http://yehudakatz.com/2010/01/10/activemodel-make-any-ruby-object-feel-like-activerecord/">Yehunda Katz and ActiveModel</a> to the rescue! Rails 3&#8217;s ActiveModel is a great way to mix ActiveRecord functionality into any object. Yehunda&#8217;s article covers validations and serialization, but glosses over ActiveModel::Naming.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"></pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">class</span> <span class="nc">Model</span>
+</span><span class='line'>  <span class="kp">extend</span> <span class="no">ActiveModel</span><span class="o">::</span><span class="no">Naming</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="o">.</span><span class="n">.</span><span class="o">.</span><span class="n">other</span> <span class="n">model</span> <span class="n">code</span><span class="o">.</span><span class="n">.</span><span class="o">.</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">end</span>
+</span></code></td></tr></table></div></figure>
+
+
+<p>Adding this module to a class means that url_for(Model) just works! Of course you need to have routes setup, but url_for will automatically construct the named routes if they match up with the model name.</p>
+
+<p>Under the hood, rails is calling model_name on the class of the object passed into url_for(). Model.model_name returns a string, but is actually an instance of ActiveModel::Name, which is then used by url_for() to generate the named route for the object.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"></pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">pry</span><span class="o">&gt;</span> <span class="no">User</span><span class="o">.</span><span class="n">model_name</span>
+</span><span class='line'><span class="o">=&gt;</span> <span class="s2">&quot;User&quot;</span>
+</span><span class='line'><span class="n">pry</span><span class="o">&gt;</span> <span class="no">User</span><span class="o">.</span><span class="n">model_name</span><span class="o">.</span><span class="n">class</span>
+</span><span class='line'><span class="o">=&gt;</span> <span class="no">ActiveModel</span><span class="o">::</span><span class="no">Name</span>
+</span></code></td></tr></table></div></figure>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Email Unsubscribe from Hell]]></title>
@@ -320,34 +360,6 @@ and follow the donation instructions</p>
 
 <p>I have been given a spot on the second plane this organization wants to send,
 but currently they only have enough funding for one.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[What if an Earthquake Hit My City?]]></title>
-    <link href="http://southpolesteve.com/what-if-an-earthquake-hit-my-city/"/>
-    <updated>2010-01-19T21:30:24-05:00</updated>
-    <id>http://southpolesteve.com/what-if-an-earthquake-hit-my-city</id>
-    <content type="html"><![CDATA[<p>After seeing some of the horrific images coming out of Haiti, I started asking
-myself this question. Actually, the first question I asked was, &#8220;How do I get
-on a plane to Haiti?&#8221; After some research, it turns out experience is usually
-required before they will put you on a plane and air drop you into a disaster
-relief effort. Then I found myself wondering what I could do the next time
-something like this happens. It turns out there is a great book that answers a
-lot of these questions!</p>
-
-<p>I read <a href="http://www.amazon.com/gp/pro%0Aduct/0060898771?ie=UTF8&amp;tag=soupolste-20&amp;linkCode=as2&amp;camp=1789&amp;creative=9325&amp;%0AcreativeASIN=0060898771">Emergency: This Book Will Save Your Life</a><img src="http://www.assoc-%0Aamazon.com/e/ir?t=soupolste-20&amp;l=as2&amp;o=1&amp;a=0060898771" alt="" /> by Neil Strauss earlier
-this year and its a great resource for anyone looking for more information
-about what to do when all hell breaks loose. In the book, Niel highlights
-Community Emergency Responder Training (CERT). CERT was developed by the Los
-Angeles disaster management office and now is used by FEMA to train local
-emergency responders all over the country. My friend Will and I are now signed
-up for the local CERT class over the next two weekends. I&#8217;m really excited
-about this and I&#8217;ll have to do a post about how it goes. I might be a long way
-from drop shipping to a international disaster relief effort, but at least it
-is a first step. If you have a couple free Saturdays and are interested in
-finding out about how you can register for CERT <a href="http://www.citizencorps.gov/cc/searchCert.do?submitByZip">click
-here</a>.</p>
 ]]></content>
   </entry>
   
