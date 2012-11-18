@@ -1,38 +1,39 @@
-@import "bootstrap";
-@import "responsive";
+$sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$serifFontFamily:       "Lato", "Times New Roman", Times, serif !default;
+$monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace !default;
+
+$baseFontSize:          14px !default;
+$baseFontFamily:        $sansFontFamily !default;
+$baseLineHeight:        20px !default;
+$altFontFamily:         $serifFontFamily !default;
+
+$headingsFontFamily:    $serifFontFamily; // empty to use BS default, $baseFontFamily
+$headingsFontWeight:    bold !default;    // instead of browser default, bold
+$headingsColor:         inherit !default; // empty to use BS default, $textColor
+
+@import "compass";
+@import "utilities";
+
+/* my styles */
+//@import "kui";
+
+/* pullquote */
+//@import "pullquote";
+
+/* syntax highlight */
+@import "custom-colors";
+@import "solarized";
+@import "syntax";
+@import "bootstrap/bootstrap";
+@import "bootstrap/responsive";
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 780px;
+
+}
 
 header {
-  border-right: 1px solid #DDD;
-  position: fixed;
-  top: 30px;
-  bottom: 0;
-}
-
-body {
-  padding-top: 30px;
-}
-
-article {
-  padding-bottom: 20px;
-}
-
-#content {
-  position: relative;
-  float: left;
-}
-
-p {
-  font-family: 'Lato', sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-}
-
-h1 {
-
-  a {
-    &:hover {
-      text-decoration:none;
-    }
-  }
-
+  text-align: center;
 }
