@@ -1,0 +1,16 @@
+{% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
+!!!
+%html{:lang => "en"}
+  %head
+    {% include head.html %}
+  %body
+    .container-fluid
+      .row-fluid
+        .span12
+          %header{:role => "banner"}
+            {% include header.html %}
+          #content
+            {{ content | expand_urls: root_url }}
+          %footer{:role => "contentinfo"}
+            {% include footer.html %}
+          {% include after_footer.html %}
