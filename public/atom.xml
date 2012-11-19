@@ -4,7 +4,7 @@
   <title><![CDATA[South Pole Steve]]></title>
   <link href="http://southpolesteve.com/atom.xml" rel="self"/>
   <link href="http://southpolesteve.com/"/>
-  <updated>2012-11-18T16:31:59-06:00</updated>
+  <updated>2012-11-18T19:32:01-06:00</updated>
   <id>http://southpolesteve.com/</id>
   <author>
     <name><![CDATA[Steve Faulkner]]></name>
@@ -12,6 +12,35 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Genetic Algorithms in Ruby]]></title>
+    <link href="http://southpolesteve.com/genetic-algorithms-in-ruby/"/>
+    <updated>2012-11-18T16:40:00-06:00</updated>
+    <id>http://southpolesteve.com/genetic-algorithms-in-ruby</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Tour de Madison B-cycle]]></title>
+    <link href="http://southpolesteve.com/tour-de-madison-bcycle/"/>
+    <updated>2012-11-18T16:39:00-06:00</updated>
+    <id>http://southpolesteve.com/tour-de-madison-bcycle</id>
+    <content type="html"><![CDATA[<p>In Madison, we are fortunate to have a nice bicycle sharing system called <a href="http://madison.bcycle.com/home.aspx">Madison B-cycle</a>. B-cycle is perfect for short trips and the occasional commute. Being located all over the city, I used B-cycles frequently last summer. In this month&#8217;s newsletter to members, the Madison B-cycle staffed proposed a challenge -  bike all 32 stations in 24 hours. The prize? A Madison B-Cycle t-shirt. How could I say no?</p>
+
+<p>I recruited my buddy Will to go with me and we planned our trip for a breezy 40 degree day. I even used the B-Cycle API to write a program that would optimize our route (look for another post on this later). We split the trip into 3 stages. Stage 1 started at 7AM on the corner of W. Washington and Regent and took us to 17 stations west of the capitol. Stage 2 was a quick loop of the capitol stations, which we completed over lunch. After work, we completed the final stage taking us to all the east side stations. Total time and distance: roughly 3 hours 30 minutes and just over 20 miles.</p>
+
+<p>Overall, the experience was quite awesome and fun!. Tour de Bcycle gave us the opportunity to see Madison in an entirely new way. I would highly recommend it to anyone interested. A 24-hour pass is only $5, so you don&#8217;t even need to be an annual member.</p>
+
+<p>The GPS I had with me was acting up, but you can see our <a href="http://runkeeper.com/user/southpolesteve/activity/131576726">incomplete route on runkeeper</a>. I also brought my DSLR along and put together a short video documenting the trip:</p>
+
+<div class="flex-video"><iframe src="http://www.youtube.com/embed/U_Sh93TVW8s" frameborder="0" allowfullscreen></iframe></div>
+
+
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[url_for(anything) with ActiveModel]]></title>
@@ -327,30 +356,6 @@ next to you.</p>
     <updated>2010-03-28T17:13:05-05:00</updated>
     <id>http://southpolesteve.com/the-paradox-of-choice</id>
     <content type="html"><![CDATA[<p>A really interesting talk on how too many choices is a bad thing.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Goin South]]></title>
-    <link href="http://southpolesteve.com/goin-south/"/>
-    <updated>2010-02-14T17:01:55-06:00</updated>
-    <id>http://southpolesteve.com/goin-south</id>
-    <content type="html"><![CDATA[<p>Currently in Mississippi headed to MS State for the Kentucky basketball game.
-Pretty excited because I get to check a few more states off the list. I&#8217;m also
-trying out posting to the blog from my phone. Hopefully it works out!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Send Me to Haiti]]></title>
-    <link href="http://southpolesteve.com/send-me-to-haiti/"/>
-    <updated>2010-01-23T12:11:45-06:00</updated>
-    <id>http://southpolesteve.com/send-me-to-haiti</id>
-    <content type="html"><![CDATA[<p>Today&#8217;s post is simple.  Go here: <a href="http://bit.ly/8kbVjX">http://bit.ly/8kbVjX</a>
-and follow the donation instructions</p>
-
-<p>I have been given a spot on the second plane this organization wants to send,
-but currently they only have enough funding for one.</p>
 ]]></content>
   </entry>
   

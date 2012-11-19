@@ -11,7 +11,7 @@ layout: default
 <article class="entry" role="article">
 
   <header>
-    <h2 class="entry_title">{{ page.title }}</h2>
+    <h1 class="entry_title">{{ page.title }}</h1>
 
     {% unless page.meta == false %}
     <p class="meta">
@@ -42,10 +42,6 @@ layout: default
       <span class="author">
 	Posted by <span class="fn">{{ page.author }}</span>
       </span>
-      {% endif %}
-
-      {% if has_date != '0' %}
-      <time datetime="{{page.date}}" pubdate>{{page.date_formatted}}</time>
       {% endif %}
 
       {% if category != '0' %}
@@ -93,5 +89,5 @@ layout: default
     {% endif %}
 
   </footer>
-  
+
 </div>
